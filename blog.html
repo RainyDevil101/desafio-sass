@@ -30,9 +30,15 @@
     <header>
       <div class="logo container">
         <div class="logo">
-          <img src="./assets/img/logos/adl.png" alt="logo" class="logo__img" />
+          <a href="blog.html">
+            <img
+              src="./assets/img/logos/adl.png"
+              alt="logo"
+              class="logo__img"
+            />
+          </a>
         </div>
-        <p class="logo__text">Blog FrontEnd</p>
+        <a href="blog.html" class="logo__text">Blog FrontEnd</a>
       </div>
     </header>
     <section>
@@ -48,7 +54,9 @@
             <div class="featured__content">
               <p class="first-post__date">24 Noviembre, 2022</p>
               <h3 class="first-post__title">
-                Modifica el tema de Bootstrap con variables CSS
+                <a href="post.html"
+                  >Modifica el tema de Bootstrap con variables CSS</a
+                >
               </h3>
               <div class="latam">
                 <img
@@ -271,20 +279,26 @@
           Desarrollo Front End
         </h5>
         <div class="newsletter__form">
-          <input type="text" class="newsletter__form--input" />
+          <input type="email" class="newsletter__form--input" />
           <button class="newsletter__form--button">Suscríbete</button>
         </div>
       </div>
     </section>
 
-    <footer class="footer container">
-      <div class="logo">
-        <div>
-          <img src="./assets/img/logos/adl.png" alt="logo" class="logo__img" />
+    <footer>
+      <div class="container footer">
+        <div class="logo">
+          <div>
+            <img
+              src="./assets/img/logos/adl.png"
+              alt="logo"
+              class="logo__img"
+            />
+          </div>
+          <p class="logo__text">Blog FrontEnd</p>
         </div>
-        <p class="logo__text">Blog FrontEnd</p>
+        <p class="footer__date" id="currentYear"></p>
       </div>
-      <p class="footer__date" id="currentYear"></p>
     </footer>
 
     <script src="./assets/js/main.js"></script>
